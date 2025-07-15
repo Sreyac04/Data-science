@@ -1,0 +1,58 @@
+import numpy as np
+A=np.array([[1,5],[2,6]])
+B=np.array([[3,4],[4,2]])
+print("First Matrix:")
+print(A)
+print("Second Matrix:")
+print(B)
+
+C=A+B
+print("Matrix after Addition:")
+print(C)
+
+D=A-B
+print("Matrix after Subtraction:")
+print(D)
+
+E=A*B
+print("Matrix after Multiplication:")
+print(E)
+
+F=np.dot(A,B)
+print("Matrix after Dot Product")
+print(F)
+
+G=A.T
+print("Transpose of First Matrix:")
+print(G)
+
+H=B.T
+print("Transpose of Second Matrix:")
+print(H)
+
+
+First Matrix:
+[[1 5]
+ [2 6]]
+Second Matrix:
+[[3 4]
+ [4 2]]
+Matrix after Addition:
+[[4 9]
+ [6 8]]
+Matrix after Subtraction:
+[[-2  1]
+ [-2  4]]
+Matrix after Multiplication:
+[[ 3 20]
+ [ 8 12]]
+Matrix after Dot Product
+[[23 14]
+ [30 20]]
+Transpose of First Matrix:
+[[1 2]
+ [5 6]]
+Transpose of Second Matrix:
+[[3 4]
+ [4 2]]
+

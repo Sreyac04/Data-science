@@ -1,0 +1,18 @@
+num=input("Enter list :")
+num_l=list(map(int,num.split()))
+largest=max(num_l)
+print("Largest Number is:",largest)
+
+Enter list :4 5 2 1 9
+Largest Number is: 9
+
+num=input("Enter list :")
+num_l=list(map(int,num.split()))
+largest=num_l[0]
+for n in num_l:
+    if n > largest:
+        largest=n
+print("Largest Number is:",largest)
+
+Enter list :5 7 2 8 9
+Largest Number is: 9
